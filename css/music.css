@@ -1,0 +1,44 @@
+video {
+  /* max-width: 100%;
+  object-fit: cover;
+  transition: ease-in-out; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: ease-in-out;
+}
+img {
+  max-width: 100%;
+  display: block;
+  padding: 2rem;
+}
+@media (min-width: 600px) {
+  .grid-musik-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .grid-musik2-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  p {
+    align-self: center; /* vertically center if using flexbox/grid */
+    padding: 2rem;
+    font-size: 1.1rem;
+    text-align: justify;
+  }
+}
+
+p {
+  align-self: center; /* vertically center if using flexbox/grid */
+  padding: 3rem;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
