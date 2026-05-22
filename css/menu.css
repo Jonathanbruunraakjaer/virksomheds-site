@@ -1,16 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-main {
-  padding: 0 1rem;
 }
 
 header,
@@ -71,41 +61,25 @@ nav a.active {
   background-color: #d9d9d9;
 }
 
-.hero {
-  text-align: center;
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
-}
-
-.hero-indhold {
-  position: relative;
-}
-
-.hero img {
-  display: block;
+video {
+  /* max-width: 100%;
+  object-fit: cover;
+  transition: ease-in-out; */
   width: 100%;
-  height: auto;
-}
-
-.hero-tekst {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.hero-tekst h1 {
-  margin: 0;
-  color: white;
-  font-size: 2.5rem;
-  text-transform: uppercase;
-  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  object-fit: cover;
+  transition: ease-in-out;
 }
 
 .tekst_efter_hero {
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.h1 {
+  text-align: center;
+  font-size: xx-large;
 }
 
 /* Cocktail liste */
@@ -121,6 +95,10 @@ h2 {
   width: 100%;
   height: auto;
   display: block;
+}
+
+.drinks_navne {
+  font-weight: bold;
 }
 
 span {
@@ -222,8 +200,7 @@ footer {
   }
 
   .drinks img {
-    width: 400px;
-    height: 400px;
+    aspect-ratio: 1;
     object-fit: cover;
     display: block;
   }
