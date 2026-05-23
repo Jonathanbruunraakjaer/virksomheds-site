@@ -17,18 +17,25 @@ video {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    p {
+      align-self: center; /* vertically center if using flexbox/grid */
+      padding: 2rem;
+      font-size: 1.1rem;
+      text-align: justify;
+    }
   }
   .grid-musik2-1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    p {
+      align-self: center; /* vertically center if using flexbox/grid */
+      padding: 2rem;
+      font-size: 1.1rem;
+      text-align: justify;
+    }
   }
-  p {
-    align-self: center; /* vertically center if using flexbox/grid */
-    padding: 2rem;
-    font-size: 1.1rem;
-    text-align: justify;
-  }
+
   nav {
     position: absolute;
     left: 50%;
@@ -47,13 +54,41 @@ video {
     gap: 8rem;
     margin-top: 0.5rem;
   }
+  .footer-instagram {
+    width: 46px;
+    height: auto;
+    display: block;
+    align-content: center;
+  }
+
+  .footer-info p {
+    margin: 0;
+    font-size: 0.75rem;
+    line-height: 1.8;
+    text-align: center;
+  }
+  .footer-indhold {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
-p {
-  align-self: center; /* vertically center if using flexbox/grid */
-  padding: 3rem;
-  font-size: 1.1rem;
-  text-align: justify;
+.grid-musik-1-1 {
+  p {
+    align-self: center; /* vertically center if using flexbox/grid */
+    padding: 3rem;
+    font-size: 1.1rem;
+    text-align: justify;
+  }
+}
+.grid-musik2-1-1 {
+  p {
+    align-self: center; /* vertically center if using flexbox/grid */
+    padding: 3rem;
+    font-size: 1.1rem;
+    text-align: justify;
+  }
 }
 h1 {
   display: flex;
@@ -131,4 +166,22 @@ nav a.active {
 span {
   font-weight: bold;
   font-size: large;
+}
+.footer-instagram {
+  width: 46px;
+  height: auto;
+  display: block;
+  align-content: center;
+}
+
+.footer-info p {
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.8;
+  text-align: center;
+}
+.footer-indhold {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
 }
