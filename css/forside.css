@@ -11,6 +11,7 @@
 /* VENSTRE SIDE */
 .overskrift-forside {
   padding-bottom: 10rem;
+  padding-left: 10px;
 }
 .left h1 {
   font-size: 72px;
@@ -20,6 +21,7 @@
 h2 {
   font-size: 40px;
   padding-bottom: 30px;
+  padding-left: 10px;
 }
 p {
   text-align: justify;
@@ -122,6 +124,29 @@ nav a.active {
   justify-content: space-around;
   text-align: center;
 }
+.grid-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 15px;
+  font-family: sans-serif;
+  align-items: center;
+  padding-top: 3rem;
+}
+.menu-button {
+  background-color: rgb(23, 38, 23);
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+}
+.button-bottle {
+  color: black;
+  text-decoration: none;
+}
 @media (min-width: 700px) {
   nav {
     position: absolute;
@@ -159,5 +184,26 @@ nav a.active {
     display: flex;
     justify-content: center;
     text-align: center;
+  }
+  .grid-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: large;
+    font-family: sans-serif;
+  }
+  .menu-button {
+    background-color: rgb(23, 38, 23);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .button-bottle {
+    color: black;
+    text-decoration: none;
   }
 }
